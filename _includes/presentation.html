@@ -1,0 +1,29 @@
+{% include base_path %}
+
+<style>
+  .lower-icon {
+    position: relative;
+    top: 5px;
+  }
+</style>
+
+<div>
+  <p>
+    {% if talk.authors and talk.authors != "" %}
+    <i>{{ talk.authors }}</i> <br>
+    {% endif %}
+    <b>{{ talk.title }}</b> <br>
+    {% if talk.venue-abbrv and talk.venue-abbrv != "" and talk.venue-site  and talk.venue-site != "" %}
+    <i>{{ talk.venue }} (<a href="{{ talk.venue-site }}" target="_blank">{{ talk.venue-abbrv }}</a>),  {{ talk.location }}. {{ talk.date | default: "1900-01-01" | date: "%Y" }}</i> 
+    {% elsif !talk.venue-abbrv or talk.venue-abbrv != "" and talk.venue-site  and talk.venue-site != "" %}
+    <i><a href="{{ talk.venue-site }}" target="_blank">{{ talk.venue }}</a>,  {{ talk.location }}. {{ talk.date | default: "1900-01-01" | date: "%Y" }}</i> 
+    {% else %}
+    <i>{{ talk.venue }}, {{ talk.location }}. {{ talk.date | default: "1900-01-01" | date: "%Y" }}</i> 
+    {% endif %}
+    {% if talk.pdf and talk.pdf != "" %}
+    <a href="{{ talk.pdf }}" title="Slides" target="_blank" style="position: relative; top: 3px"><i
+        class="fas fa-fw fa-file-powerpoint icon-mid zoom" aria-hidden="true"></i></a>
+    {% endif %}
+  </p>
+</div>
+

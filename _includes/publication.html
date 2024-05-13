@@ -1,0 +1,65 @@
+{% include base_path %}
+
+<style>
+  .lower-icon {
+    position: relative;
+    top: 5px;
+  }
+</style>
+
+<div>
+  <p>
+    <i>{{ post.authors }}</i> <br>
+    <b>{{ post.title }}</b> <br>
+    <i>{{ post.venue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}</i> <br>
+    <button class="btn" id="abstract" data-unique-id="{{ post.paper-id }}" style="gap: 1em;">Abstract</button>
+    <button class="btn" id="bibtex" data-unique-id="{{ post.paper-id }}" style="gap: 1em;">Bibtex</button>
+    {% if post.pdf and post.pdf != "" %}
+    <a href="{{ post.pdf }}" title="Paper" target="_blank" style="position: relative; top: 3px"><i
+        class="fas fa-fw fa-file-pdf icon-mid zoom" aria-hidden="true"></i></a>
+    {% endif %}
+    {% if post.doi and post.doi != "" %}
+    <a href="{{ post.doi }}" title="DOI" target="_blank" style="position: relative; top: 3px"><i
+        class="ai ai-doi ai-fw icon-mid zoom" aria-hidden="true"></i></a>
+    {% endif %}
+    {% if post.github and post.github != "" %}
+    <a href="{{ post.github }}" title="GitHub Repository" target="_blank" style="position: relative; top: 3px"><i
+        class="fab fa-fw fa-github icon-mid zoom" aria-hidden="true"></i></a>
+    {% endif %}
+    {% if post.zenodo and post.zenodo != "" %}
+    <a href="{{ post.zenodo }}" title="Zenodo Repository" target="_blank" style="position: relative; top: 10px"><i
+        class="ai ai-zenodo ai-fw icon-large zoom" aria-hidden="true"></i></a>
+    {% endif %}
+    {% if post.figshare and post.figshare != "" %}
+    <a href="{{ post.figshare }}" title="Figshare Repository" target="_blank" style="position: relative; top: 3px"><i
+        class="ai ai-figshare ai-fw icon-mid zoom" aria-hidden="true"></i></a>
+    {% endif %}
+  </p>
+
+  <div id="abstract-content-{{ post.paper-id }}" class="content-item">
+    <i>{{ post.abstract }}</i>
+  </div>
+
+  <div id="bibtex-content-{{ post.paper-id }}" class="content-item">
+    {{ post.bibtex }}
+  </div>
+
+</div>
+
+
+<!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $('.content-item').hide();
+
+    $('.btn').click(function () {
+      var uniqueID = $(this).data('unique-id');
+      var target = '#' + $(this).attr('id') + '-content-' + uniqueID;
+      $('.content-item').not(target).hide();
+      console.log(target)
+      $(target).toggle();
+    });
+  });
+</script> -->
+
+
