@@ -10,6 +10,7 @@ author_profile: true
 {% endif %}
 
 {% include base_path %}
+{% include abstract-bibtex-hider.html %}
 
 <ul>
 {% for post in site.publications reversed %}
@@ -21,7 +22,6 @@ author_profile: true
 </ul>
 
 
-{% include abstract-bibtex-hider.html %}
 
 
 
