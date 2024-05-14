@@ -20,20 +20,8 @@ author_profile: true
 {% endfor %}
 </ul>
 
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script>
-  $(document).ready(function () {
-    $('.content-item').hide();
 
-    $('.btn').click(function () {
-      var uniqueID = $(this).data('unique-id');
-      var target = '#' + $(this).attr('id') + '-content-' + uniqueID;
-      $('.content-item').not(target).hide();
-      console.log(target)
-      $(target).toggle();
-    });
-  });
-</script>
+{% include abstract-bibtex-hider.html %}
 
 
 
