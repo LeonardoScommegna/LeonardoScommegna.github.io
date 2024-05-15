@@ -3,6 +3,9 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
+include_scripts: [
+  "/assets/js/text-area-hider.js"
+]
 ---
 
 {% if site.author.googlescholar %}
@@ -10,7 +13,6 @@ author_profile: true
 {% endif %}
 
 {% include base_path %}
-{% include abstract-bibtex-hider.html %}
 
 <ul>
 {% for post in site.publications reversed %}
