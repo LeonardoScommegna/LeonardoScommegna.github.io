@@ -1,7 +1,14 @@
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
   $(document).ready(function () {
     console.log("this is a ping")
+    $('.content-item').hide();
+    $('.btn').click(function () {
+      var uniqueID = $(this).data('unique-id');
+      var target = '#' + $(this).attr('id') + '-content-' + uniqueID;
+      $('.content-item').not(target).hide();
+      console.log(target)
+      $(target).toggle();
+    });
   });
 </script>
