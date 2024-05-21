@@ -11,6 +11,7 @@ title: "Services"
 
 - IEEE Transactions on Software Engineering ([TSE](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=32))
 - IEEE Transactions on Vehicular Technology ([TVT](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=25))
+- IEEE Open Journal of the Communications Society ([OJ-COMS](https://www.comsoc.org/publications/journals/ieee-ojcoms))
 
 
 ## Conference Reviewer
