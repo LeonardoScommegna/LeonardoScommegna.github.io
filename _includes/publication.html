@@ -34,6 +34,10 @@
     <a href="{{ post.figshare }}" title="Figshare Repository" target="_blank" style="position: relative; top: 3px"><i
         class="ai ai-figshare ai-fw icon-mid zoom" aria-hidden="true"></i></a>
     {% endif %}
+    {% if post.slides and post.slides != "" %}
+    <a href="{{ post.slides }}" title="Slides" target="_blank" style="position: relative; top: 3px"><i
+        class="fas fa-fw fa-file-powerpoint icon-mid zoom" aria-hidden="true"></i></a>
+    {% endif %}
   </p>
 
   <div id="abstract-content-{{ post.paper-id }}" class="content-item">

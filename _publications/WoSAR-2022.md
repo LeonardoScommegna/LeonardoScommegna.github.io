@@ -7,6 +7,7 @@ date: "2022-01-01"
 venue: 'International Workshop on Software Aging and Rejuvenation (WoSAR)'
 paper-id: "WoSAR-2022"
 pdf: "/papers/WoSAR-2022.pdf"
+slides: "/talks/talk-WoSAR-2022.pdf"
 doi: "https://doi.org/10.1109/ISSREW55968.2022.00060"
 github: ""
 zenodo: ""

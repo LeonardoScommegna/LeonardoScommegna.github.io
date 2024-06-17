@@ -7,6 +7,7 @@ date: "2021-10-25"
 venue: 'International Workshop on Software Aging and Rejuvenation (WoSAR)'
 paper-id: "WoSAR-2021"
 pdf: "/papers/WoSAR-2021.pdf"
+slides: "/talks/talk-WoSAR-2021.pdf"
 doi: "https://doi.org/10.1109/ISSREW53611.2021.00040"
 github: ""
 zenodo: ""

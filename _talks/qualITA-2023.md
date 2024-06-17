@@ -6,7 +6,7 @@ talk-type: "presentation"
 date: "2023-07-20"
 venue: 'Conference on System and Service Quality'
 venue-abbrv: 'qualITA'
-venue-site: 'https://qualitawg.github.io/'
+venue-site: 'https://qualitawg.github.io/2023/'
 location: "Florence, Italy"
 pdf: "/talks/talk-qualITA-2023.pdf"
 ---
