@@ -111,9 +111,8 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
-
 # SEO Related
-google_site_verification :
+google_site_verification : "Jmnb6pnSdTf65cPUN3jhD3Qteb-tuZSTjtWH3-8QFgY"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
