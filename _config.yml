@@ -37,7 +37,7 @@ author:
   orcid            : "https://orcid.org/0000-0002-7293-0210"
   scopus           : "https://www.scopus.com/authid/detail.uri?authorId=57203924317"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  researchgate     : "https://www.researchgate.net/profile/Leonardo-Scommegna"
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
