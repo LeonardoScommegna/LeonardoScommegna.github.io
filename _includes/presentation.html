@@ -20,6 +20,14 @@
     {% else %}
     <i>{{ talk.venue }}, {{ talk.location }}. {{ talk.date | default: "1900-01-01" | date: "%Y" }}</i> 
     {% endif %}
+    {% if talk.award and talk.award != "" %}
+      {% if talk.award-material and talk.award-material != "" %}
+        <a href="{{ talk.award-material }}" title="Award" target="_blank"><i
+        class="fas fa-trophy icon-mid zoom" aria-hidden="true"></i> <i>{{ talk.award }}</i></a>
+      {% else %}
+        <i class="fas fa-trophy icon-mid zoom" aria-hidden="true"></i> <i>{{ talk.award }}</i> 
+    {% endif %}
+    {% endif %}
     {% if talk.pdf and talk.pdf != "" %}
     <a href="{{ talk.pdf }}" title="Slides" target="_blank" style="position: relative; top: 3px"><i
         class="fas fa-fw fa-file-powerpoint icon-mid zoom" aria-hidden="true"></i></a>

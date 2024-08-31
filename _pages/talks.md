@@ -16,6 +16,17 @@ author_profile: true
 {% endfor %}
 </ul>
 
+## Posters
+<ul>
+{% for talk in site.talks reversed %}
+  {% if talk.talk-type == "poster" %}
+  <li>
+    {% include presentation.html %}
+  </li>
+  {% endif %}
+{% endfor %}
+</ul>
+
 ## Invited Talks
 <ul>
 {% for talk in site.talks reversed %}
