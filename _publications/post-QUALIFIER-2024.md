@@ -7,7 +7,7 @@ date: "2024-02-01"
 venue: 'Post-proceedings of the European Conference on Software Architecture'
 paper-id: "post-QUALIFIER-2024"
 pdf: "/papers/post-QUALIFIER-2024.pdf"
-doi: ""
+doi: "https://doi.org/10.1007/978-3-031-66326-0_14"
 github: "https://github.com/STLab-UniFI/QUALIFIER-2023-TD-microservices-rep-pkg"
 zenodo: ""
 abstract: 'Background: Despite the rising interest of both academia and industry in microservice-based architectures and technical debt, the landscape remains uncharted when it comes to exploring the technical debt evolution in software systems built on this architecture. 
