@@ -7,6 +7,7 @@ date: "2024-09-01"
 venue: 'International Workshop on Software Aging and Rejuvenation (WoSAR)'
 paper-id: "WoSAR-2024"
 pdf: "/papers/WoSAR-2024.pdf"
+slides: "/talks/talk-WoSAR-2024.pdf"
 doi: ""
 github: "https://github.com/oris-tool/WoSAR-2024-replica-pool-rep-pkg"
 zenodo: "https://doi.org/10.5281/zenodo.13370985"
