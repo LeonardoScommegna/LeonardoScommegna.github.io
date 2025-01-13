@@ -8,7 +8,7 @@ author_profile: true
 ## Current Courses
 
 - [Software Engineering and C/C++ Languages](https://e-l.unifi.it/course/view.php?id=44287)
-    - _MSc in Electrical Engineering, Academic Year 2024/2024, Role: Teacher_
+    - _MSc in Robotics, Automation and Electrical Engineering, Academic Year 2024/2024, Role: Teacher_
 
 ## Past Courses and Teaching Activities
 - [Software Architectures and Methodologies](https://e-l.unifi.it/course/view.php?id=41373)
