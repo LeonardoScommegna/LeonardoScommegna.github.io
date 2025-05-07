@@ -5,6 +5,8 @@ title: "Services"
 
 ## Organizing Committee Member
 
+- International Workshop on Software Aging and Rejuvenation ([WoSAR 25](https://www.wosar.net/)), *General Chair*
+- IEEE International Symposium on Software Reliability Engineering ([ISSRE 25](https://issre.github.io/2025/)), *Program Committee Member*
 - IEEE/ACM International Conference on Automated Software Engineering ([ASE 2024](https://conf.researchr.org/home/ase-2024)), *Artifact Evaluation Committee Member*
 - International Conference on Web Information Systems and Technologies ([WEBIST 24](https://webist.scitevents.org/Home.aspx)), *Program Committee Member* 
 - IEEE International Symposium on Software Reliability Engineering ([ISSRE 23](https://issre.github.io/2023/)), *Web Chair* and *Registration Chair*
