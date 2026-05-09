@@ -18,12 +18,13 @@ In such configurations, the unavailability of a single replica, due to scheduled
 This identifies a performability problem in which the system can tolerate a certain number of offline replicas in the pool. However, once a certain threshold is exceeded, the resulting high workload pending on the online replicas could degrade the performance of the system, potentially leading to a failure in meeting the non-functional requirements.
 In this work, we study the problem of aging in a pool of service replicas. 
 We characterize two inspection-based rejuvenation strategies that could be implemented in this context, which we identify as uncoordinated and coordinated rejuvenation. We represent them through the formalism of Stochastic Time Petri Nets (STPN) and through steady-state analysis, we conduct a performability evaluation of both the models as the frequency of inspections and the pool size vary.'
-bibtex: '@inproceedings{scommegna2024quantitative,
-  title={Quantitative evaluation of software rejuvenation of a pool of service replicas},
-  author={Scommegna, Leonardo and Becattini, Marco and Fontani, Giovanni and Paroli, Leonardo and Vicario, Enrico},
-  booktitle={2024 IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW)},
-  year={2024},
-  organization={IEEE}
-}'
+bibtex: |
+  @inproceedings{scommegna2024quantitative,
+    title={Quantitative evaluation of software rejuvenation of a pool of service replicas},
+    author={Scommegna, Leonardo and Becattini, Marco and Fontani, Giovanni and Paroli, Leonardo and Vicario, Enrico},
+    booktitle={2024 IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW)},
+    year={2024},
+    organization={IEEE}
+  }
 ---
 

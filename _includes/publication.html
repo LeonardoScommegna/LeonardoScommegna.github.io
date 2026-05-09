@@ -5,6 +5,24 @@
     position: relative;
     top: 5px;
   }
+  .copy-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #555;
+    font-size: 0.8em;
+    padding: 2px 6px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .copy-btn:hover {
+    background: #eee;
+    color: #000;
+  }
 </style>
 
 <div>
@@ -40,13 +58,43 @@
     {% endif %}
   </p>
 
-  <div id="abstract-content-{{ post.paper-id }}" class="content-item">
-    <i>{{ post.abstract }}</i>
+  <!-- <div id="abstract-content-{{ post.paper-id }}" class="content-item" style="position: relative; padding-top: 25px; padding-right: 10px;background-color: #f7f7f7; border-radius: 5px; padding-left: 10px; padding-bottom: 10px;">
+    <button class="copy-btn" onclick="copyToClipboard('abstract-text-{{ post.paper-id }}', this)" title="Copy Abstract">
+      <i class="fas fa-copy"></i> Copy
+    </button>
+    <div id="abstract-text-{{ post.paper-id }}">
+      <i>{{ post.abstract }}</i>
+    </div>
+  </div> -->
+
+  <!-- <div id="bibtex-content-{{ post.paper-id }}" class="content-item" style="position: relative; margin-top: 15px;">
+    <button class="copy-btn" onclick="copyToClipboard('bibtex-text-{{ post.paper-id }}', this)" title="Copia BibTeX" style="z-index: 10;">
+      <i class="fas fa-copy"></i> Copy
+    </button>
+    
+    <div class="language-bibtex highlighter-rouge">
+      <div class="highlight">
+        <pre class="highlight"><code id="bibtex-text-{{ post.paper-id }}">{{ post.bibtex }}</code></pre>
+      </div>
+    </div>
+  </div> -->
+
+<div id="abstract-content-{{ post.paper-id }}" class="content-item" style="display: none; position: relative; margin-top: 15px; background-color: #f9f9f9; border-radius: 5px; padding: 15px; padding-top: 35px; border: 1px solid #eee;">
+    <button class="copy-btn" onclick="copyToClipboard('abstract-text-{{ post.paper-id }}', this)" title="Copia Abstract">
+      <i class="fas fa-copy"></i> Copy
+    </button>
+    <div id="abstract-text-{{ post.paper-id }}">
+      <i>{{ post.abstract }}</i>
+    </div>
   </div>
 
-  <div id="bibtex-content-{{ post.paper-id }}" class="content-item">
-    {{ post.bibtex }}
+  <div id="bibtex-content-{{ post.paper-id }}" class="content-item" style="display: none; position: relative; margin-top: 15px; background-color: #f2f2f2; border-radius: 5px; padding: 15px; padding-top: 35px; border: 1px solid #ddd;">
+    <button class="copy-btn" onclick="copyToClipboard('bibtex-text-{{ post.paper-id }}', this)" title="Copia BibTeX">
+      <i class="fas fa-copy"></i> Copy
+    </button>
+    <pre style="margin: 0; background: transparent; border: none; padding: 0;"><code id="bibtex-text-{{ post.paper-id }}" style="color: #333; font-size: 0.9em; white-space: pre-wrap;">{{ post.bibtex }}</code></pre>
   </div>
+
 
 </div>
 
