@@ -6,8 +6,8 @@ main:
   - title: "Services"
     url: /services/
 
-  - title: "Research"
-    url: /research/    
+  - title: "Talks"
+    url: /talks/    
 
   - title: "Teaching"
     url: /teaching/    

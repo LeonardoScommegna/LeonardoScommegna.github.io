@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Research Activities"
-permalink: /research/
+title: "Talks & Outreach"
+permalink: /talks/
 author_profile: true
 ---
 
