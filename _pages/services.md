@@ -9,7 +9,6 @@ title: "Services"
 
 ## Organizing Committee Member
 
-
 - International Workshop on Software Aging and Rejuvenation ([WoSAR 26](https://www.wosar.net/)), *Program Chair*
 - ACM/SPEC International Conference on Performance Engineering ([ICPE 26]{https://icpe2026.spec.org/}), *Registration Chair*
 - International Workshop on Software Aging and Rejuvenation ([WoSAR 25](https://www.wosar.net/)), *General Chair*
@@ -23,6 +22,7 @@ title: "Services"
 
 - IEEE Transactions on Software Engineering ([TSE](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=32))
 - IEEE Open Journal of the Communications Society ([OJ-COMS](https://www.comsoc.org/publications/journals/ieee-ojcoms))
+- IEEE Transactions on Intelligent Transportation Systems ([T-ITS](https://ieee-itss.org/pub/t-its/))
 - IEEE Transactions on Vehicular Technology ([TVT](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=25))
 - Future Generation Computer Systems ([FGCS](https://www.sciencedirect.com/journal/future-generation-computer-systems))
 - [IEEE Access](https://ieeeaccess.ieee.org/)
@@ -35,6 +35,8 @@ title: "Services"
 
 ## Conference Reviewer
 
+- IEEE International Conference on Software Analysis, Evolution and Reengineering ([SANER](https://conf.researchr.org/home/saner-2026)), Tool and Demo track, 2026
+- IEEE International Symposium on Software Reliability Engineering ([ISSRE](https://issre.github.io/2025/)), 2025
 - IEEE International Symposium on Software Reliability Engineering 2024 ([ISSRE 24](https://issre.github.io/2024/))
 - International Conference on Web Information Systems and Technologies ([WEBIST 24](https://webist.scitevents.org/Home.aspx))
 - IEEE International Symposium on Software Reliability Engineering 2023 ([ISSRE 23](https://issre.github.io/2023/))
